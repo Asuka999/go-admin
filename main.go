@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"go-admin/cmd"
 )
 
@@ -17,5 +18,6 @@ import (
 // @in header
 // @name Authorization
 func main() {
+	fmt.Println("hellowrold")
 	cmd.Execute()
 }
